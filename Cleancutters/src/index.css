@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rubik:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+font-family: 'Inter', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+
+.Nav{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+}
+.hero{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+}
+
+.nave{
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+ justify-content: space-between;
+
+
+}
+.imge{
+  width: 60px;
+}
+.list{
+  margin-right: 40px;
+  display: flex;
+  width: 40%;
+  /* outline: thin solid black; */
+  justify-content:space-between;
+  font-weight: bolder;
+  text-transform: uppercase;;
+  align-items: center;
+
+}
+
+
+#butt{
+  color: white;
+  border: none;
+  background:#4A9EED;
+  padding: 10px;
+  /* width: 70%; */
+  border-radius: 10px;
+  gap: 6px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+
